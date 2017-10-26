@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import CourseListRow from './courseListRow';
 
 const CourseList = ({ courses, deleteCourse }) => {
@@ -23,8 +23,8 @@ const CourseList = ({ courses, deleteCourse }) => {
 };
 
 CourseList.propTypes = {
-    courses: PropTypes.array.isRequired,
-    deleteCourse: PropTypes.object
+    courses: React.PropTypes.array.isRequired,
+    deleteCourse: React.PropTypes.object
 };
 
 export default CourseList;

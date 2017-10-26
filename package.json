@@ -15,7 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6.8.0",
-    "bootstrap": "3.3.6",
     "jquery": "2.2.3",
     "react": "15.0.2",
     "react-dom": "15.0.2",
@@ -35,6 +34,7 @@
     "babel-preset-react": "6.5.0",
     "babel-preset-react-hmre": "1.1.1",
     "babel-register": "6.8.0",
+    "bootstrap": "^3.3.6",
     "cheerio": "0.22.0",
     "colors": "1.1.2",
     "compression": "1.6.1",
